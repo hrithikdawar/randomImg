@@ -19,7 +19,7 @@ function random(){
     const ry=Math.floor(Math.random()*100)
     const rotate=Math.random()*360
     const randomimg=Math.floor(Math.random()*arr.length)
-return [rx,ry,rotate,randomimg]
+    return [rx,ry,rotate,randomimg]
 }
 
 
